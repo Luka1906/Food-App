@@ -1,0 +1,47 @@
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(129, 31, 31);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem;
+    align-items: center;
+    z-index: 10;
+
+
+
+}
+.headerName {
+    color: #fff;
+
+}
+
+.main-image {
+    overflow: hidden;
+
+}
+.main-image img {
+    width: 100%;
+    min-height: 550px;
+
+
+
+
+    
+}
+
+@media (min-width: 360px) {
+    .header {
+        display: flex;
+        padding: 0 0.5rem;
+        justify-content: space-between;
+    }
+    .main-image img {
+        height: 22rem;
+    
+    }
+    
+}
+

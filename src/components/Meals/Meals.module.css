@@ -1,0 +1,28 @@
+.items-list {
+    animation: display 1s ease-out forwards;
+    
+}
+
+.meals-loading {
+    text-align: center;
+    color: #fff;
+  }
+
+
+.meals-error {
+    text-align: center;
+    color:rgb(251, 40, 40)
+  }
+
+@keyframes display {
+    from {
+        opacity: 0;
+        transform: translateY(3rem);
+
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+    
+}

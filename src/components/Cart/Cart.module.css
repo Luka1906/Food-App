@@ -1,0 +1,47 @@
+.cartItems {
+  margin: 0;
+  padding: 0;
+  max-height: 20rem;
+  overflow: auto;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.button-wrapper {
+  display: flex;
+  float: right;
+  gap: 0.5rem;
+}
+
+.cartBtn {
+  padding: 0.5rem 2rem;
+  font: inherit;
+  border: 1px solid brown;
+  border-radius: 1.5rem;
+  background: transparent;
+  color: brown;
+  cursor: pointer;
+}
+
+.cartBtn:hover,
+.cartBtn:active {
+  background-color: #7c2703;
+  color: #fff;
+}
+
+.submitBtn {
+    float: right;
+}
+
+
+
+
+
+
+
+
+

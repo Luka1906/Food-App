@@ -1,7 +1,7 @@
 import React,{Fragment} from "react";
 import classes from "./Header.module.css";
 import HeaderButton from "./HeaderButton";
-import mealsImage from '../../assets/meals.jpeg'
+import mealsImage from '../../assets/meals1.jpg'
 
 
 const Header = (props) => {

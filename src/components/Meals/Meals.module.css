@@ -1,5 +1,7 @@
 .items-list {
     animation: display 1s ease-out forwards;
+    overflow: hidden;
+  
     
 }
 
@@ -26,3 +28,4 @@
     }
     
 }
+

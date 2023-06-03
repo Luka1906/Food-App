@@ -1,6 +1,6 @@
-import React,{useContext,useRef} from "react";
+import React,{useRef} from "react";
 import classes from "./MealInputForm.module.css";
-import CartContext from "../../store/cart-context";
+
 
 const MealInputForm = (props) => {
     const inputRef = useRef()
@@ -13,7 +13,7 @@ const MealInputForm = (props) => {
 
     }
     return (
-        <form onSubmit={submitHandler}> 
+        <form className={classes.form} onSubmit={submitHandler}> 
         <div className={classes.input}>
             <label className={classes.label} htmlFor="amount">Amount</label>
             <input ref={inputRef} className={classes["input-field"]} type="number" min="1" max="5" step="1" defaultValue="1" ></input>

@@ -2,11 +2,10 @@
     display: flex ;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 0.7rem;
+    padding: 0.7rem 1rem;
     border-bottom: 1px solid rgb(156, 156, 156); 
-    height: 8.5rem;
-
-   
+  
+    
 }
 
 .description {
@@ -17,4 +16,16 @@
 .price {
     color: brown;
 }
+
+@media (max-width:576px) {
+    .meal-items {
+       padding: 0 1rem;
+  
+       font-size: 0.8rem;
+        
+    }
+  }
+
+
+
 

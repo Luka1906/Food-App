@@ -2,13 +2,16 @@
 display: flex;
 width: 7.5rem;
 justify-content: space-between;
+align-items: center;
 
 
 }
 
+
+
 .formBtn {
+    width: 7.5rem;
     float: right;
-    margin-top: 1rem;
     padding: 0.3rem 2rem;
     border: none;
     border-radius: 1rem;
@@ -16,14 +19,18 @@ justify-content: space-between;
     color: #fff;
     cursor: pointer;
     font: inherit;
+    position: relative;
+    top: 1.3rem;
   
+    
 }
 
 .input-field {
     font: inherit;
     border: 1px solid rgb(164, 164, 164);
     border-radius: 0.4rem;
-    padding-left: 0.5rem;
+    text-align: center;
+;
 }
 
 .formBtn:hover,
@@ -33,4 +40,17 @@ justify-content: space-between;
 
 .label {
     font-weight:bold
+}
+
+
+@media (max-width:576px) {
+ .formBtn {
+  width: auto;
+ }
+
+ .label {
+  position: relative;
+  left: 1.5rem;
+  
+ }
 }

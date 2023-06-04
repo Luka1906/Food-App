@@ -37,7 +37,10 @@
     float: right;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 576px) {
+  .cartItems {
+    font-size: 1rem;
+  }
   .cartItems,.total,.button-wrapper {
      font-size: 0.8rem;
   }

@@ -46,11 +46,8 @@ align-items: center;
 @media (max-width:576px) {
  .formBtn {
   width: auto;
+  position: relative;
+  top: 2rem;
  }
 
- .label {
-  position: relative;
-  left: 1.5rem;
-  
- }
 }

@@ -73,8 +73,14 @@
 }
 
 @media (max-width:480px) {
+  .form {
+    font-size: 1rem;
+  }
   .control input {
     width: 18rem;
+  }
+  .form {
+    zoom: 0.8;
   }
   .actions {
     position: relative;

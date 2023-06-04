@@ -10,7 +10,7 @@
   
   .modal {
     position: fixed;
-    top: 5vh;
+    top: 10vh;
     left: 5%;
     width:90%;
     background-color: white;
@@ -19,14 +19,10 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
     z-index: 30;
     animation: slide-down 300ms ease-out forwards;
+    zoom: 0.85;
   }
 
 
-  @media (max-width: 460px) {
-    .modal {
-      zoom: 0.8;
-    }
-  }
   @media (min-width: 768px) {
     .modal {
       width: 40rem;

@@ -38,11 +38,8 @@
 }
 
 @media (max-width: 576px) {
-  .cartItems {
-    font-size: 1rem;
-  }
   .cartItems,.total,.button-wrapper {
-     font-size: 0.8rem;
+     font-size: 0.7rem;
   }
 }
 

@@ -24,7 +24,7 @@
 
   @media (max-width: 460px) {
     .modal {
-      zoom: 0.75;
+      zoom: 0.8;
     }
   }
   @media (min-width: 768px) {
